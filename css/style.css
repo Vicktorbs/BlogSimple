@@ -31,6 +31,15 @@ div.contenedor{
     width: 90%;
     margin: 0 auto;
 }
+/* Scrollbarr */
+body::-webkit-scrollbar{
+    width: 7px;
+    background: rgba(0, 184, 228, .3)
+}
+body::-webkit-scrollbar-thumb{
+    background: #ff4757;
+    border-radius: 5px;
+}
 /* Navegacion */
 .navegacion{
     background: #eb4d4b;
